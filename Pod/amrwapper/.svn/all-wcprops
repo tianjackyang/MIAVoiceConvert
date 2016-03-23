@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/e-friends/!svn/ver/484/trunk/ios/e-friends/e-friends/FIFrameWork/FIUtilty/VoiceConvert/amrwapper
+END
+amrFileCodec.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/e-friends/!svn/ver/484/trunk/ios/e-friends/e-friends/FIFrameWork/FIUtilty/VoiceConvert/amrwapper/amrFileCodec.h
+END
+wav.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/e-friends/!svn/ver/484/trunk/ios/e-friends/e-friends/FIFrameWork/FIUtilty/VoiceConvert/amrwapper/wav.h
+END
+amrFileCodec.mm
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/e-friends/!svn/ver/484/trunk/ios/e-friends/e-friends/FIFrameWork/FIUtilty/VoiceConvert/amrwapper/amrFileCodec.mm
+END
+wav.mm
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/e-friends/!svn/ver/484/trunk/ios/e-friends/e-friends/FIFrameWork/FIUtilty/VoiceConvert/amrwapper/wav.mm
+END
