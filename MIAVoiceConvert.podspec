@@ -141,6 +141,9 @@ Pod::Spec.new do |s|
   end 
 
   s.subspec 'core' do |ss|
+    ss.dependency "MIAVoiceConvert/amrwapper"
+    ss.dependency "MIAVoiceConvert/opencore-amrnb"
+    ss.dependency "MIAVoiceConvert/opencore-amrwb"
     ss.source_files = 'Pod/core/**/*.{h,mm}'
     ss.public_header_files = 'Pod/core/**/*.{h}'
   end
