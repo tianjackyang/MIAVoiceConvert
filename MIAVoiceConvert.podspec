@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MIAVoiceConvert"
-  s.version      = "0.0.2"
+  s.version      = "0.0.6"
   s.summary      = "arm to wav or wav to arm."
 
   # This description is used to generate tags and improve search results.
@@ -141,8 +141,8 @@ Pod::Spec.new do |s|
   end 
 
   s.subspec 'core' do |ss|
-    ss.source_files = 'Pod/core/**/*.{h,m}'
-    ss.public_header_files = 'Pod/core/**/*.{h,m}'
+    ss.source_files = 'Pod/core/**/*.{h,mm}'
+    ss.public_header_files = 'Pod/core/**/*.{h}'
   end
  
   s.subspec 'opencore-amrnb' do |ss|
