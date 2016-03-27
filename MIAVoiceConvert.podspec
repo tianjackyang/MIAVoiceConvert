@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MIAVoiceConvert"
-  s.version      = "0.0.6"
+  s.version      = "0.0.9"
   s.summary      = "arm to wav or wav to arm."
 
   # This description is used to generate tags and improve search results.
@@ -124,7 +124,7 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
    
-  s.vendored_libraries = 'Pod/lib/libopencore-amrnb.a', 'Pod/lib/libopencore-amrwb.a'
+  # s.vendored_libraries = 'Pod/lib/libopencore-amrnb.a', 'Pod/lib/libopencore-amrwb.a'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -146,6 +146,7 @@ Pod::Spec.new do |s|
     ss.dependency "MIAVoiceConvert/opencore-amrwb"
     ss.source_files = 'Pod/core/**/*.{h,mm}'
     ss.public_header_files = 'Pod/core/**/*.{h}'
+    ss.vendored_libraries = 'Pod/lib/libopencore-amrnb.a', 'Pod/lib/libopencore-amrwb.a'
   end
  
   s.subspec 'opencore-amrnb' do |ss|
