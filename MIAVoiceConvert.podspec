@@ -1,5 +1,4 @@
-#
-#  Be sure to run `pod spec lint MIAVoiceConvert.podspec' to ensure this is a
+##  Be sure to run `pod spec lint MIAVoiceConvert.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -143,7 +142,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'core' do |ss|
     ss.source_files = 'Pod/core/**/*.{h,m}'
-    ss.public_header_files = 'Pod/core/**/*.{h}'
+    ss.public_header_files = 'Pod/core/**/*.{h,m}'
   end
  
   s.subspec 'opencore-amrnb' do |ss|
