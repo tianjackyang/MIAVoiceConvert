@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MIAVoiceConvert"
-  s.version      = "0.2.9"
+  s.version      = "0.3.0"
   s.summary      = "arm to wav or wav to arm."
 
   # This description is used to generate tags and improve search results.
